@@ -12,6 +12,7 @@ Here I describe how to collect book IDs for 128kbps audiobooks using the **[Adva
 3. Filter the data for your preferences.
 4. Write filtered identifiers to a .txt file.
 5. Download items using **[ia](https://archive.org/developers/internetarchive/cli.html)**
+
 ``` ia download --itemlist {YOUR_LIST_OF_IDENTIFIERS}.txt --glob=”*128kb.mp3” ```
 or **wget**
 ``` wget -r -H -nc -np -nH --cut-dirs=3 -A ”*128kb.mp3” -R .zip  -e robots=off -i “{YOUR_LIST_OF_IDENTIFIERS}.txt” -B 'http://archive.org/download/' --method=HEAD```
