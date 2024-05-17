@@ -10,7 +10,7 @@ Here I describe how to collect book IDs for 128kbps audiobooks using the **[Adva
 
 ## Usage
 1. Get search results from the [Internet Archive](https://archive.org) in .CSV format using [Advanced Search returning JSON, XML, and more](https://archive.org/advancedsearch.php). From "Fields to return" include at least identifier, language, mediatype and format. (Or more, if needed.)
-2. Explore the data - available languages, formats...
+2. Explore the data - available languages, formats... [My exploration is here...](https://www.kaggle.com/code/yuliakr/audiobooks-and-poetry/)
 3. Filter the data for your preferences.
 4. Write filtered identifiers to a .txt file.
 5. Download items using **[ia](https://archive.org/developers/internetarchive/cli.html)**
