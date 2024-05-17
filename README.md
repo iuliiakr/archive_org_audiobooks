@@ -1,5 +1,6 @@
 # archive_org_audiobooks
 Explore audiobooks on Internet Archive for downloading them with ia cli.
+Data exploration details can be found here:
 [https://www.kaggle.com/code/yuliakr/audiobooks-and-poetry/](https://www.kaggle.com/code/yuliakr/audiobooks-and-poetry/)
 
 ## Context
