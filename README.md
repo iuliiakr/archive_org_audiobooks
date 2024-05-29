@@ -3,9 +3,10 @@ Explore audiobooks on Internet Archive for downloading them with ia cli.
 Data exploration details can be found here:
 [https://www.kaggle.com/code/yuliakr/audiobooks-and-poetry/](https://www.kaggle.com/code/yuliakr/audiobooks-and-poetry/)
 
-## Context
+## Motivation
 
-**[Internet Archive](https://archive.org)** is an amazing free source of media. I'm particularly interested in good quality audiobooks. 
+**[Internet Archive](https://archive.org)** is an amazing free source of media. I'm particularly interested in good quality audiobooks. You can download them using Internet Archive's cli. But first you need to collect book IDs.
+
 Here I describe how to collect book IDs for 128kbps audiobooks using the **[Advanced Search](https://archive.org/advancedsearch.php)** option and pass them to **[ia cli](https://archive.org/developers/internetarchive/cli.html)** for bulk download.
 
 ## Usage
